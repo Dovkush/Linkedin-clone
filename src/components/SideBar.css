@@ -1,0 +1,89 @@
+.side__bar{
+    width: 18%;
+    padding: 30px;
+}
+.side__bartopcard{
+    background-color: white;
+    /* margin-top: 25px; */
+    margin-left: 2px;
+    border: 0.1px solid rgb(187, 187, 187);
+    border-radius: 5px;
+    /* padding: 10px; */
+}
+.top{
+    height: 60px;
+    /* border: 1px solid; */
+}
+.top>img{
+    height: 100%;
+    width: 100%;
+}
+.userdata{
+  /* border: 1px solid; */
+  text-align: center;
+  /* height: 20%; */
+}
+
+details{
+    padding: 10px;
+}
+.userdata>p{
+    font-size: 12px;
+    font-weight: 400;
+    /* margin-top: 6px;
+    margin-bottom: 8px; */
+    padding: 10px;
+}
+.profileimg{
+    margin-left: 40% !important;
+    margin-top: -20px !important;
+    height: 3rem !important;
+    width: 3rem !important;
+}
+.side__barstats{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    /* height: 7rem; */
+    border-top: 0.1px solid rgb(194, 194, 194);
+    /* border: 0.1px solid gray; */
+}
+.stats{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    cursor: pointer;
+}
+.stats>h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+.stats:hover{
+    background-color: rgb(206, 205, 205);
+}
+.stats_number{
+    color:navy;
+}
+
+.sidebar__botton{
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 2px;
+    border: 0.1px solid rgb(187, 187, 187);
+    border-radius: 5px;
+    padding: 10px;
+}
+.side__barTitle{
+    padding: 3px;
+    cursor: pointer;
+}
+.side__barTitle>p:hover{
+    background-color: lightgray;
+}
+@media only screen and (max-width: 430px) {
+    .side__bar{
+       display: none;
+    }
+}
+
+
+

@@ -1,0 +1,26 @@
+
+.headerOptions{
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    color: gray;
+}
+.headerOptions:hover{
+ color: black;
+}
+/* .headerOptions{
+
+    color:gray;
+} */
+.title{
+    font-size: 12px;
+    font-weight: 400;
+}
+.profileimage{
+height: 28px !important;
+width: 28px !important;
+}
+

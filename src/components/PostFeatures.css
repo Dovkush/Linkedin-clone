@@ -1,0 +1,10 @@
+.features{
+    display: flex;
+    color: grey;
+    align-items: center;
+}
+.features:hover{
+    /* background-color: whitesmoke; */
+    cursor: pointer;
+    color: black;
+}

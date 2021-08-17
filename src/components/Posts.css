@@ -1,0 +1,27 @@
+.post{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgb(202, 202, 202);
+}
+.post__header{
+    display: flex;
+    padding:10px;
+    border-bottom: 1px solid rgb(231, 228, 228);
+}
+.post__info{
+    margin-left: 10px;
+}
+.post__info>p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.post__body{
+    padding:10px
+}
+.post__features{
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    /* border-top: 1px solid rgb(231, 228, 228); */
+}

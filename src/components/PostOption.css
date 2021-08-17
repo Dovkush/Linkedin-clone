@@ -1,0 +1,16 @@
+.post__option{
+    padding:10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.post__option>h4{
+    margin-left:4px ;
+    font-size: 15px;
+    font-weight: 500;
+    color: grey;
+}
+.post__option:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
